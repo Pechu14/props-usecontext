@@ -11,13 +11,14 @@
 }
 
 .buttons {
+  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 50px);
   grid-gap: 10px;
 }
 
 button {
-  width: 50px;
+  width: auto;
   height: 50px;
   font-size: 1.2rem;
 }
@@ -25,3 +26,22 @@ button {
 .result {
   margin-top: 20px;
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b59c9c;
+}
+.calculator button{
+ width: auto;
+ background-color: blue;
+}
+
+.calculator h2, p{
+  color: blue;
+}
+a {
+  color: blue;
+}
+
